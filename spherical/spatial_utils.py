@@ -150,9 +150,9 @@ def var_TPV_spatial(all_TPVs_A, var_dates, var_anom, latmesh_ecmwf, lonmesh_ecmw
     #trimming trailing zeros
     d = d[:,:,0:c]
     b = b[:,:,0:c]
-    var_spatial = var_spatial[:,:,0:c] 
-    lats_spatial = lats_spatial[:,:,0:c] 
-    amp_spatial = amp_spatial[:,:,0:c] 
+    var_spatial = var_spatial[:,:,0:c]
+    lats_spatial = lats_spatial[:,:,0:c]
+    amp_spatial = amp_spatial[:,:,0:c]
     in_hemis = in_hemis[:,:,0:c]
     SIC_present_spatial = SIC_present_spatial[:,:,0:c]
 
